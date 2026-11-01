@@ -37,6 +37,16 @@
       opacity: 1;
         transfrom:translateY(0);}
         }
+        btn {
+        display: inline-block;
+        background: linear-gradient(135deg, var(--accent-yellow), #ea580c);
+        color: black;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
       
 
 
@@ -44,16 +54,15 @@
     
     </style>
     <body>
-<div class="img-wrapper">
-    <img src=" download (5).jpg" align="left" width="200" style="margin-right:20px ;"  alt= "Descrpition">
-    <div class="animated card">
-      <p align ="right" > ox bezoar<br>
+<div class="animated-card">
+    <img src=" download (5).jpg" align="left" width="50" style="margin-right:20px ;"  alt= "Descrpition">
+    <p> ox bezoar<br>
     aaaaadkdfjoifjiushffff </p>
-    </div>
+    
     <br clear="left">
 </div >
      <footer>
-        <a href=</a>
+        <a href="https://ayana-sarkar.github.io/1st_rough_jjk/" class="btn" > Home </a>
     </footer>
 </body>
 </html>
