@@ -14,16 +14,20 @@
       margin: 0;
       font-family: sans-serif;
     }
-    .img-wrapper {
-  overflow: hidden;        /* Clips the zoomed image within its rounded borders */
-  border-radius: 12px;     /* Keeps the rounded corners intact during zoom */
-  margin-bottom: 15px;     /* Space beneath stacked items */ 
- }
- .img-wrapper img {
+  .square-card {
+  width: 180px;           /* Sets the box width */
+  height: 180px;          /* Sets the box height equal to width for a square */
+  float: left;            /* Moves the box to the left margin */
+  margin-right: 20px;     /* Adds breathing room between the box and your text */
+  overflow: hidden;       /* Crops anything outside the square boundaries */
+  border-radius: 6px;     /* Optional: rounds the corners of the box */
+}
+/* Forces the image to fill the square box cleanly */
+.square-card img {
   width: 100%;
-  height: auto;
-  display: block;
-   filter: brightness(0.75)}
+  height: 100%;
+  object-fit: cover;      /* Preserves aspect ratio while filling the square */
+}
     .animated-card {
       opacity:0 ;
     transfrom:translateY(30px);
@@ -54,13 +58,15 @@
     
     </style>
     <body>
-<div class="animated-card">
+<div class="square-card">
     <img src=" download (5).jpg" align="left" width="50" style="margin-right:20px ;"  alt= "Descrpition">
-    <p> ox bezoar<br>
+</div>
+   <div class="animated-card"> <p> ox bezoar<br>
     aaaaadkdfjoifjiushffff </p>
+   </div>
     
-    <br clear="left">
-</div >
+    <div><br clear="left">
+    </div >
      <footer>
         <a href="https://ayana-sarkar.github.io/1st_rough_jjk/" class="btn" > Home </a>
     </footer>
