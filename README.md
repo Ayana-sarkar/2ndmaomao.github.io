@@ -31,7 +31,7 @@
     .animated-card {
       opacity:0 ;
     transfrom:translateY(30px);
-    animation:slideUpFade 0.8s ease-out forwards ;
+    animation:slideUpFade 1.2s ease-out forwards ;
     }
     @keyframes slideUpFade {
     from{
