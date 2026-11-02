@@ -82,7 +82,7 @@
    <p>aaaaadkdfjoifjiushffff </p>
    </div>
    <footer>
-        <a href="https://ayana-sarkar.github.io/ingredients_maomao/" class="btn" > Home </a>
+        <a href="https://ayana-sarkar.github.io/ingredients_maomao/" class="btn" > ingredients </a>
     </footer>
 </body>
 </html>
