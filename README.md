@@ -76,7 +76,7 @@
     </style>
     <body>
 <div class="square-card">
-    <img src=" download (5).jpg" align="left" width="150" style="margin-right:20px ;"  alt= "Descrpition">
+    <img src=" download (5).jpg" align="left" width="270" style="margin-right:20px ;"  alt= "Descrpition">
 </div>
    <div class="animated-card"> <h3> ox bezoar</h3>
    <p>aaaaadkdfjoifjiushffff </p>
